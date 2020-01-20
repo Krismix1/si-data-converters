@@ -1,0 +1,17 @@
+[
+    {
+        "first_name": "bob",
+        "last_name": "bobski",
+        "age": "7"
+    },
+    {
+        "first_name": "alice",
+        "last_name": "aliceski",
+        "age": "8"
+    },
+    {
+        "first_name": "foo",
+        "last_name": "bar",
+        "age": "5"
+    }
+]

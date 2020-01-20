@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf8"?>
+<root>
+  <accounts>
+    <account>
+      <first_name>bob</first_name>
+      <last_name>bobski</last_name>
+      <age>7</age>
+    </account>
+    <account>
+      <first_name>alice</first_name>
+      <last_name>aliceski</last_name>
+      <age>8</age>
+    </account>
+    <account>
+      <first_name>foo</first_name>
+      <last_name>bar</last_name>
+      <age>5</age>
+    </account>
+  </accounts>
+</root>

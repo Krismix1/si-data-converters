@@ -32,6 +32,6 @@ def to_xml():
     return xmlstr
 
 if __name__=='__main__':
-    print(to_json()) # jq
+    print(to_json())
     print()
-    print(to_xml()) # xmllint --format -
+    print(to_xml())

@@ -5,6 +5,7 @@ def read():
         for row in reader:
             yield tuple(row)
 
+
 def to_json():
     import json
     reader = read()
@@ -16,6 +17,7 @@ def to_json():
             row[col] = val
         results.append(row)
     return json.dumps(results)
+
 
 def to_xml():
     import xml.etree.ElementTree as ET

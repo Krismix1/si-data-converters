@@ -4,6 +4,7 @@ def read():
     root = tree.getroot()
     return root
 
+
 def to_json():
     import json
 
@@ -16,6 +17,7 @@ def to_json():
         accounts.append(account)
 
     return json.dumps(accounts)
+
 
 def to_csv():
     import csv

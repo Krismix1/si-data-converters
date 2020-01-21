@@ -1,8 +1,8 @@
-
 def read():
     import json
     with open('accounts.json') as f:
         return json.load(f)
+
 
 
 def to_csv():
@@ -17,6 +17,7 @@ def to_csv():
         rows.append(','.join(row))
     return '\r\n'.join(rows)
 
+
 def to_csv2():
     import csv
     accounts = read()
@@ -28,6 +29,7 @@ def to_csv2():
 
         writer.writeheader()
         writer.writerows(accounts)
+
 
 def to_xml():
     import xml.etree.ElementTree as ET
